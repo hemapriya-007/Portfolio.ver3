@@ -1,0 +1,69 @@
+{
+  "hema": {
+    "name": "Akula Hema Priya",
+    "title": "Web Developer",
+    "color": "#da61ff",
+    "gradient": "linear-gradient(135deg, #ff61d0 0%, #de8bff 100%)",
+    "img": "../assets/images/hema.avif",
+    "sections": {
+      "about": "I am a motivated diploma student specializing in <strong>Computer Engineering</strong>. I am passionate about creating new pages, apps and games...",
+      "education": "<h3>Diploma in Computer Engineering</h3><p><strong>A.A.N.M & V.V.R.S.R Polytechnic, Gudlavalleru</strong></p><p>2023 – 2026</p>",
+      "experience": [
+    {
+      "title": "C++ Programming Training",
+      "duration": "3 Months",
+      "desc": "Learned C++ fundamentals, OOP concepts and problem-solving."
+    },
+    {
+      "title": "NestFind Project Work",
+      "duration": "6 Months",
+      "desc": "Worked as Frontend Developer, designed responsive UI."
+    }
+  ],
+      "skills": [
+        {"name": "HTML", "level": "90%"},
+        {"name": "CSS", "level": "85%"},
+        {"name": "JavaScript", "level": "75%"},
+        {"name": "Python", "level": "70%"}
+      ],
+      "projects": ["NestFind – Smart Property Finder", "Portfolio Website"],
+      "contact": "hema69387@gmail.com | +91 8309939143"
+    }
+  },
+  "lokeswari": {
+    "name": "Lokeswari Battina",
+    "title": "AI & ML Student", 
+    "color": "#FF6B61",
+    "gradient": "linear-gradient(135deg, #FF6B61 0%, #FF9A8B 100%)",
+    "img": "../assets/images/lokii.avif",
+    "sections": {
+      "about": "Diploma Student specializing in <strong>Artificial Intelligence & Machine Learning</strong>...",
+      "education": "<h3>Diploma in AI & ML</h3><p><strong>AANM&VVRSR Polytechnic, Gudlavalleru</strong></p><p>2023-2026</p>",
+      "skills": [
+        {"name": "HTML & CSS", "level": "90%"},
+        {"name": "JavaScript", "level": "75%"},
+        {"name": "Prolog", "level": "70%"}
+      ],
+      "projects": ["Portfolio Website", "File Management System"],
+      "contact": "battinalokeswari@gmail.com"
+    }
+  },
+  "suneela": {
+    "name": "Suneela Gummadi", 
+    "title": "Content Creator",
+    "color": "#ff6a88",
+    "gradient": "linear-gradient(135deg, #ff9a9e, #fad0c4)",
+    "img": "../assets/images/s.png",
+    "sections": {
+      "about": "Creative Content Creator with strong skills in digital storytelling...",
+      "education": "<h3>Diploma in AIML</h3><p>AANM & VVRSR Polytechnic</p>",
+      "skills": [
+        {"name": "HTML5", "level": "85%"},
+        {"name": "CSS3", "level": "80%"},
+        {"name": "Content Writing", "level": "90%"}
+      ],
+      "projects": ["College Management", "Digital Content Showcase"],
+      "contact": "suneelagummadi@gmail.com"
+    }
+  }
+}

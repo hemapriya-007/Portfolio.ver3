@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AS Team Portfolio - ver3</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+  <div class="logo"><i class="fas fa-rocket"></i> AS Team Portfolio</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#team">Team</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1><i class="fas fa-users"></i> Welcome to AS Team</h1>
+    <h2><strong>Diploma Developers</strong></h2>
+    <p>Creative web development students from <strong>A.A.N.M & V.V.R.S.R Polytechnic, Gudlavalleru</strong></p>
+    <p style="font-size:18px;margin-top:15px;">Click any team member to view their portfolio!</p>
+    <button onclick="scrollToTeam()" class="btn">
+      Meet Our Team <i class="fas fa-arrow-down"></i>
+    </button> </div>
+  <div class="hero-img">
+    <img src="../assets/images/team.jfif"
+         onerror="this.src='https://via.placeholder.com/340/da61ff/ffffff?text=AS+Team'"
+         alt="Team Photo">
+  </div>
+</section>
+
+<!-- Replace Team Section (add 4th member Asini) -->
+<section id="team">
+   <nav>
+  <h2><i class="fas fa-handshake"></i> Our Amazing Team</h2>
+  <div class="team-grid">
+    <div class="team-card" onclick="showPortfolio('hema')">
+      <img src="../assets/images/hema.avif" onerror="this.src='https://via.placeholder.com/130/da61ff/ffffff?text=HP'" alt="Hema Priya">
+      <h3>Akula Hema Priya</h3>
+      <h4>A.A.N.M & V.V.R.S.R Polytechnic college</h4>
+      <p><i class="fas fa-code"></i> CME Student</p>
+    </div>
+    <div class="team-card" onclick="showPortfolio('lokeswari')">
+      <img src="../assets/images/lokii.avif" onerror="this.src='https://via.placeholder.com/130/ff6b61/ffffff?text=LB'" alt="Lokeswari">
+      <h3>Lokeswari Battina</h3>
+         <h4>A.A.N.M & V.V.R.S.R Polytechnic college</h4>
+      <p><i class="fas fa-brain"></i> AI & ML Student</p>
+    </div>
+    <div class="team-card" onclick="showPortfolio('suneela')">
+      <img src="../assets/images/work.webp" onerror="this.src='https://via.placeholder.com/130/ff6a88/ffffff?text=SG'" alt="Suneela">
+      <h3>Suneela Gummadi</h3>
+         <h4>A.A.N.M & V.V.R.S.R Polytechnic college</h4>
+      <p><i class="fas fa-palette"></i>AI & MLn student</p>
+    </div>
+    <div class="team-card" onclick="showPortfolio('asini')">
+      <img src="../assets/images/asini.jpg" onerror="this.src='https://via.placeholder.com/130/da61ff/ffffff?text=AB'" alt="Asini">
+      <h3>Asini Botla</h3>
+         <h4>A.A.N.M & V.V.R.S.R Polytechnic college</h4>
+      <p><i class="fas fa-robot"></i> AIML Student</p>
+    </div>
+  </div>
+</section>
+
+<div id="portfolio-container" class="portfolio-container" style="display:none;">
+  <section id="about-sec"><h2 id="about-title">About</h2><div class="box" id="about-content"></div></section>
+  <section id="education-sec"><h2>Education</h2><div class="box" id="education-content"></div></section>
+  <section id="experience-sec"><h2>Experience</h2><div id="experience-content"></div></section>
+  <section id="skills-sec"><h2>Skills</h2><div id="skills-content"></div></section>
+  <section id="contact-sec"><h2>Contact</h2><div class="box" id="contact-content"></div></section>
+  <button onclick="backToTeam()" class="btn"><i class="fas fa-arrow-left"></i> Back to Team</button>
+  <button onclick="printCV()" class="btn"><i class="fas fa-download"></i> Download CV</button>
+</div>
+
+<footer>
+  © 2026 AS Team | A.A.N.M & V.V.R.S.R Polytechnic, Gudlavalleru
+  <i class="fas fa-heart" style="color:#ff6b9d;"></i>
+</footer>
+
+<script src="../assets/scripts/index.js"></script>
+</body>
+</html>
